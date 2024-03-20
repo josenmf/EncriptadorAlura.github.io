@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="header">
+        <img src="imagenes/Logo.png" class="header__logo" alt="logo"> 
+    </header>
+    
+    <main class="main">
+      <section class="main__content1">
+            <div class="main__area">
+                    <textarea class="main__textarea" id="input-texto" placeholder="Ingresa el texto aquí" cols="30" rows="10"></textarea>
+                <div class="main__terminos">
+                    <img src="imagenes/Exclamacion.png" class="main__exclamacion" alt="exclamacion"> 
+                    <p class="main__alerta">Solo letras minusculas y sin acentos</p>
+                </div>
+                <div class="main__buttons">
+                    <button class="main__btn-encriptar" type="button" id="btn-encriptar" >Encriptar</button>
+                    <button class="main__btn-desencriptar" type="button" id="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </div>
+      </section>
+    
+        <section class="main__content2">
+            <div class="main__copiar">
+                    <textarea class="main__mesaje" id="msg" placeholder="Texto enciptado" cols="30" rows="10"></textarea>
+                    <img class="main__img" src="imagenes/muñeco.png">
+                <div class="main__button">
+                    <button class="main__btn" id="btn-copy">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">   
+        <p class="footer__name">José Natividad Mendoza Fragoso</p>   
+        <img src="imagenes/github.png" class="footer__github">
+        <img src="imagenes/facebook.png" class="footer__facebook">
+        <img src="imagenes/icons8-x-50.png" class="footer__x">
+        <img src="imagenes/icons8-youtube-50.png" class="footer__youtube">
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html
